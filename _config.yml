@@ -1,11 +1,11 @@
 # Site settings
-title: BY Blog
-SEOTitle: 柏荧的博客 | BY Blog
+title: 小明俱乐部
+SEOTitle: 让每个人有平等获取知识的权力 | BY 小明俱乐部
 header-img: img/post-bg-desk.jpg
-email: qiubaiying@gmail.com
-description: "Every failure is leading towards success."
-keyword: "BY, BY Blog, 柏荧的博客, qiubaiying, 邱柏荧, iOS, Apple, iPhone"
-url: "http://qiubaiying.github.io"          # your host, for absolute URL
+email: xiaomingjulebu@outlook.com
+description: "让每个人有平等获取知识的权力"
+keyword: "小明俱乐部, C++, 汇编, JAVA, 计算机体系结构, 机器视觉, 数字图像处理"
+url: "http://xiaomingjulebu.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
 
