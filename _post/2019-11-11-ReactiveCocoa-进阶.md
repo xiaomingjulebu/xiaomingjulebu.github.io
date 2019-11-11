@@ -2,7 +2,7 @@
 layout:     post
 title:      ReactiveCocoa 进阶
 subtitle:   函数式编程框架 ReactiveCocoa 进阶
-date:       2017-01-06
+date:       2019-11-11
 author:     BY
 header-img: img/post-bg-ios9-web.jpg
 catalog: true
@@ -112,7 +112,7 @@ Hook原理：在每次调用一个API返回结果之前，先执行你自己的�
      3. 当源信号有内容发出，就会把内容传递到 `bindingBlock` 处理，调用`bindingBlock(value,stop)`
      4. 调用`bindingBlock(value,stop)`，会返回一个内容处理完成的信号`RACReturnSignal`。
      5. 订阅`RACReturnSignal`，就会拿到绑定信号的订阅者，把处理完成的信号内容发送出来。
-       
+     
      
      注意:不同订阅者，保存不同的nextBlock，看源码的时候，一定要看清楚订阅者是哪个。
 
@@ -538,8 +538,8 @@ Hook原理：在每次调用一个API返回结果之前，先执行你自己的�
 
 
 ​    
-    RACSignal *reduceSignal = [RACSignal combineLatest:@[signalA, signalB] reduce:^id(NSString *str1, NSString *str2){
-        
+​    RACSignal *reduceSignal = [RACSignal combineLatest:@[signalA, signalB] reduce:^id(NSString *str1, NSString *str2){
+​        
         return [NSString stringWithFormat:@"%@ %@", str1, str2];
     }];
     
